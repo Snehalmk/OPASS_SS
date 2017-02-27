@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.admin.opass.Signup">
+<RelativeLayout
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Log-In"
+        android:id="@+id/log"
+        android:textSize="15pt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <AutoCompleteTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="21"
+        android:hint="User-name"
+        android:id="@+id/User"
+        android:layout_below="@+id/log"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:dropDownHeight="50dp"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/confirm"
+        android:layout_below="@+id/Password"
+        android:layout_alignStart="@+id/log"
+        android:layout_alignLeft="@+id/log"
+        android:layout_marginTop="78dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="21"
+        android:id="@+id/Password"
+        android:hint="Password"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/User"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <CheckBox
+        android:text="Show password"
+        android:textAlignment="gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_alignBottom="@+id/Password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Password" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

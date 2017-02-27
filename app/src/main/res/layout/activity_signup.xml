@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.admin.opass.Signup">
+
+<RelativeLayout android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="22sp"
+        android:id="@+id/sign"
+        android:textAlignment="center"
+        android:layout_alignRight="@+id/Finish"
+        android:layout_alignEnd="@+id/Finish"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/Finish"
+        android:layout_alignStart="@+id/Finish" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="User-Name"
+        android:ems="25"
+        android:id="@+id/Name"
+        android:layout_marginTop="83sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_below="@+id/sign"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="25"
+        android:id="@+id/Email"
+        android:layout_below="@+id/Name"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignRight="@+id/Name"
+        android:layout_alignEnd="@+id/Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="25"
+        android:id="@+id/Pass"
+        android:hint="Enter Password"
+        android:layout_below="@+id/Email"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="25"
+        android:id="@+id/PassC"
+        android:hint="Confirm Password"
+        android:layout_below="@+id/Pass"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:id="@+id/Finish"
+        android:layout_marginTop="79dp"
+        android:layout_below="@+id/PassC"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>

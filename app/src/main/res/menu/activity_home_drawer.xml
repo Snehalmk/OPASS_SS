@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rides"
+            android:icon="@drawable/rides"
+            android:title="Rides" />
+        <item
+            android:id="@+id/nbh"
+            android:icon="@drawable/hos"
+            android:title="Near By Hospital" />
+        <item
+            android:id="@+id/sett"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/has"
+                android:icon="@drawable/sp"
+                android:title="Help and Support" />
+            <item
+                android:id="@+id/au"
+                android:icon="@drawable/ab"
+                android:title="About Us" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">OPASS Smart City</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_nav__drawer">Nav_Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_home">Home</string>
+	<string name="title_activity_Route">Route</string>
+
+    <string name="hello_world">Tap two locations in the map</string>
+    <string name="str_tv_distance_time">Distance</string>
+    <string name="large_text">
+        <b> OPASS </b> The name says it all. \n
+        OPTIMAL PATH ALLOCATION AND SIGNAL CONTROL SYSTEM FOR EMERGENCY VEHICLES
+        Life is Very Imortant. \n
+        Be safe.. We are there to save you..
+        Its our resposibility to see that ambulance reaches the hospital on time.
+    </string>
+    <string name="title_activity_login_new">LoginNew</string>
+    <string name="title_activity_next">Next</string>
+
+
+
+</resources>
